@@ -17,9 +17,26 @@
   overflow: auto; 
 }
 .navbar a:hover{
-  background-color:#add;
-  color:black;
+  background-color:rgb(152, 189, 216);
+  color:rgb(96, 4, 4);
 }
 .image1{
   width: 300px;
+}
+
+/* style the table */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #e8a5a5;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #b9c6a8;
 }
