@@ -4,26 +4,33 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>classes</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="courses.css" />
   </head>
 
   <body>
-    <div class="navbar">
-      <a class="active" href="#home" style="font-family:'Courier New'">Fit&Fun</a>
-      <a href="Classes">Classes</a>
-      <a href="Memberships">Memberships</a>
-      <a href="regster|Logn">Sign up | Log in</a>
-    </div>
-    <!--Wokr on the dropdown for courses-->
-    <div >
-        <a href="Classes">Classes</a>
-        <a href="Classes">Dancing</a>
-        <a href="Classes">Yoga</a>
-        <a href="Classes">Cycling</a>
-    </div>
+    <!--Nav bar-->
+    <Nav class="navbar">
+      <ul>
+        <li style="font-family:'Courier New'"><a href="#home">Fit&Fun</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Courses</a>
+          <div class="dropdown-content">
+            <a href="#">Dancing classes</a>
+            <a href="#">Yoga classes</a>
+            <a href="#">Cycling classes</a>
+          </div>
+        </li>
+        <li><a href="#news">Membership</a></li>
+        <li><a href="#news">Mealsreceipe</a></li>
+      </ul>
+
+    </Nav>
+
+
+
 
     <footer class="footer">
       <p>

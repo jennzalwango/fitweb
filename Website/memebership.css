@@ -1,0 +1,27 @@
+
+/* style the navbar */
+.navbar {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .navbar a {
+    border-style: none;
+    opacity: 1;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    width: 22%;
+    background-color: #2b4570;
+    margin: 0;
+    font-size: 20px;
+    overflow: auto;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(152, 189, 216);
+    color: rgb(96, 4, 4);
+  }
+  
