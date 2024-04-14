@@ -1,11 +1,54 @@
 body {
-    background-color: #ddeaf1;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome {
+    font-size: 52px;
+    color: whitesmoke
+}
+
+.home-image {
+    background: url(websiteImages/boxed-water-is-better-zQNDCje06VM-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.home-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.home-button {
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    background-color: #bed1e1;
+    color: rgb(8, 0, 0);
+
+}
+
+/* style the content on the resgister page */
+.register-container {
+    display: flex;
+}
+
+.register-box {
+    flex: 1;
+    margin: 15px;
+    padding: 50px;
+    border: 2px solid #d3e0ee;
+    background-color: rgb(247, 224, 224);
 }
 
 /* style the login and signup form */
 .container {
     background-color: #d7b7b7;
-    width: 30%;
     margin-left: auto;
     margin-right: auto;
     color: #480404;
@@ -16,27 +59,19 @@ body {
 }
 
 .submit-buttons {
+    cursor: pointer;
     text-align: center;
-    background-color: #B0D6EB;
+    background-color: #9bbecf;
     margin-left: 48%;
     width: 23%;
-    height: 5%;
-    border-radius: 8px;
-}
-
-.center-button{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-
+    height: 6%;
+    border-radius: 8px; 
 }
 
 
 input[type=text],
 input[type=password] {
-    width: 70%;
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 15%;
     display: inline-block;
@@ -45,55 +80,15 @@ input[type=password] {
 label {
     margin-left: 15%;
     text-align: center;
-
-}
-
-/* style the navbar */
-.navbar {
-    text-align: center;
-    padding: 20px;
-}
-
-.navbar a {
-    border-style: none;
-    opacity: 1;
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px 26px;
-    text-decoration: none;
-    width: 22%;
-    background-color: #2b4570;
-    margin: 0;
-    font-size: 20px;
-    overflow: auto;
-    height: 6%;
-    overflow: hidden;
-
-
-    overflow: hidden;
-    flex-direction: row;
-    margin-top: -15px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 20px;
-}
-
-.navbar a:hover {
-    background-color: rgb(152, 189, 216);
-    color: rgb(96, 4, 4);
-}
-
-.image1 {
-    width: 300px;
 }
 
 /* style the footer */
 .footer {
-
     text-align: center;
-    padding: 20px;
-    background-color: #2b4570;
-    color: #f2f2f2;
-
+    padding: 20;
+    margin: 0;
+    background-color: #9bbecf;
+    color: #360101;
+    height: 15%;
+    font-size:medium
 }
