@@ -65,20 +65,7 @@ body {
   width: 300px;
 }
 
-/* style the footer */
-.footer {
-
-  text-align: center;
-  padding: 20;
-  margin: 0;
-  background-color: #9bbecf;
-  color: #360101;
-  height: 15%;
-  font-size:medium
-
-}
-
-/* style the home content */
+/* style the home box content */
 .container {
   display: flex;
 }
@@ -91,6 +78,7 @@ body {
   background-color:rgb(247, 224, 224);
 }
 
+/* style the self care */
 .companyoffer {
   text-align: center;
   text-decoration: solid;
@@ -98,5 +86,18 @@ body {
   font-size: larger;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #360101;
+
+}
+
+/* style the footer */
+.footer {
+
+  text-align: center;
+  padding: 20;
+  margin: 0;
+  background-color: #9bbecf;
+  color: #360101;
+  height: 15%;
+  font-size:medium
 
 }
