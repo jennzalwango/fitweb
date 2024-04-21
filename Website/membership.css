@@ -1,5 +1,5 @@
 body{
-  background-color: #f2f6fb;
+  background-color: #e7e2db;
 }
 /* style the welcome message*/
 .membership-qoute{
@@ -92,11 +92,29 @@ li.dropdown {
 }
 
 .box1 {
-  flex: 3;
+  flex: 1;
   margin: 15px;
   padding: 50px;
   border: 2px solid #d3e0ee;
-  background-color:rgb(247, 224, 224);
+  background-color:rgb(245, 195, 195);
+}
+
+/* sytle the choose button o memeberships*/
+.choose-button{
+  font-size:18px;
+  padding: 15px 25px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: rgb(8, 0, 0);
+  cursor: pointer;
+  border: 1px solid #3366cc;
+  text-align: center;
+
+}
+
+.choose-button:hover{
+  background-color:#a3caea;
+  border: #a3caea;;
 }
 
 /* style the footer */
@@ -107,6 +125,6 @@ li.dropdown {
   margin: 0;
   background-color: #9bbecf;
   color: #360101;
-  height: 15%;
-  font-size: medium
+  height: 20%;
+  font-size: x-large
 }

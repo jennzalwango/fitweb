@@ -1,150 +1,177 @@
 /* style the list items on navbar */
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #2b4570;
-    color: #f2f2f2;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  li {
-    float: left;
-    padding: 20px 26px;
-    font-size: 20px;
-    border-style: none;
-  
-  }
-  
-  li a,
-  .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 25px 38px;
-    text-decoration: none;
-  }
-  
-  /* style list of the dropdown */
-  li a:hover,
-  .dropdown:hover .dropbtn {
-    background-color: #a8cad6;
-    color: rgb(96, 4, 4);
-  }
-  
-  li.dropdown {
-    display: inline-block;
-  
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    padding: 10px 10px;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #e1b5b5;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  /* style the footer */
-  .footer {
-  
-    text-align: center;
-    padding: 20;
-    margin: 0;
-    background-color: #9bbecf;
-    color: #360101;
-    height: 15%;
-    font-size: medium
-  }
-  body{
-    background-color: antiquewhite;
-  }
-  
-  .yoga-content{
-    color: #f9f9f9;
-  }
-    /*style timetable contents*/
-  .yoga-timetable-content2{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2b4570;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  float: left;
+  padding: 20px 26px;
+  font-size: 20px;
+  border-style: none;
+
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 25px 38px;
+  text-decoration: none;
+}
+
+/* style list of the dropdown */
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #a8cad6;
+  color: rgb(96, 4, 4);
+}
+
+li.dropdown {
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10px 10px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #e1b5b5;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.yoga-content {
+  color: #944545;
+  position: relative;
+}
+
+/*
+    
+    style timetable contents
     position: absolute;
     bottom: 0;
-    background: rgb(222, 218, 218); /* Fallback color */
-    background: rgba(225, 219, 219, 0.667); /* Black background with 0.5 opacity */
+        background: rgba(225, 219, 219, 0.667);
     color: #f1f1f1;
-    width: 60%;
-    padding: 37px;
-    display: block;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    left: 50%;
-    top: 50%; 
-    
-  }
-  /*style table items*/
+    background: rgb(222, 218, 218); /* Fallback color */
+/* background: rgba(225, 219, 219, 0.667); Black background with 0.5 opacity */
 
-  .table-schedule {
-    border-collapse: collapse;
-    width: 50%;
+.yoga-timetable-content2 {
+  background: rgba(100, 120, 140, 0.667);
+  width: 50%;
+  padding: 30px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  cursor: pointer;
+}
 
+.yoga-timetable-content2:hover {
+  background: rgba(140, 170, 200, 0.667);
+}
+
+/*style table items*/
+.table-schedule {
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
 }
 
 th,
 td {
-    border: 1px solid #dddddd;
-    text-align:left;
-    padding: 8px;
-    justify-content: space-evenly;
+  border: 1px solid #e8e8dd;
+  text-align: left;
+  padding: 8px;
+  /*justify-content: space-evenly;*/
+
 }
 
 th {
-    background-color: #f7e4e4;
+  background-color: #f2eded;
 }
 
- /*style the image*/
+/*style the image*/
 #yoga-img-container {
-    background-image: url('websiteImages/kaylee-garrett-GaprWyIw66o-unsplash.jpg');
-   
-    background-repeat: no-repeat, repeat;
-    padding: 20%;
-    background-size: cover;
-    height: 100px;
-    width: 60%;
-    position: relative;
-    float: left;
-    background-position: center bottom;
+  background-image: url('websiteImages/farsai-chaikulngamdee-L2wq7Y3h7ag-unsplash.jpg');
+  background-repeat: no-repeat, repeat;
+  padding: 20%;
+  background-size: cover;
+  height: 100px;
+  width: 60%;
+  position: relative;
+  float: left;
+  background-position: center bottom;
 }
 
-/* add the second image*/
-.new-bg-image {
-  /* The image used */
-  background-image: url("websiteImages/bruce-mars-y0SMHt74yqc-unsplash.jpg");
-  min-height: 380px;
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+/*css for image 2 , l put iform on top*/
+
+div.gallery {
+  width: 100%;
+}
+
+div.gallery:hover {
+  background-color: antiquewhite;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 80%
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/*form*/
+.yoga-form-content2 {
+  background: rgba(100, 120, 140, 0.667);
+  width: 50%;
+  padding: 30px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  cursor: pointer;
+}
+#weekdays{
+  font-size: large;
+  padding: 6;
+  width: 100%;
+  width: 100%;
+}
+
+.submit-btn{
+
 }
 
 /* Add styles to the form container */
@@ -154,11 +181,12 @@ th {
   margin: 20px;
   max-width: 300px;
   padding: 16px;
-  background-color: white;
+  background-color: rgb(220, 162, 162);
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -166,23 +194,36 @@ input[type=text], input[type=password] {
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus,
+input[type=password]:focus {
   background-color: #f1c9c9;
   outline: none;
 }
 
 /* Set a style for the submit button */
-.btn {
-  background-color: #04AA6D;
-  color: white;
+.submit-btn {
+  background-color: #d5afa0;
+  color: black;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
   width: 50%;
   opacity: 0.9;
-  text-align:left:
+  text-align: left;
 }
 
-.btn:hover {
+.submit-btn:hover {
   opacity: 1;
+  background-color: #81bcce;
+}
+
+/* style the footer */
+.footer {
+  text-align: center;
+  padding: 20;
+  margin: 0;
+  background-color: #9bbecf;
+  color: #360101;
+  height: 20%;
+  font-size: medium
 }

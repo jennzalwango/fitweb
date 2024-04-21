@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f0ed;
 }
 
 .welcome {
@@ -24,16 +25,25 @@ body {
     color: white;
 }
 
+/*add css for the join us button on img*/
 .home-button {
-    font-size: 20px;
+    font-size: 23px;
     padding: 15px 25px;
     border-radius: 8px;
     background-color: #bed1e1;
     color: rgb(8, 0, 0);
+    cursor: pointer;
+    border: 1px solid #3366cc;
 
 }
 
-/* style the content on the resgister page */
+.home-button:hover{
+    background-color:#a3caea;
+    border: #a3caea;;
+  }
+
+
+/* style the content on the register page */
 .register-container {
     display: flex;
 }
@@ -43,12 +53,12 @@ body {
     margin: 15px;
     padding: 50px;
     border: 2px solid #d3e0ee;
-    background-color: rgb(247, 224, 224);
+    background-color:rgb(245, 216, 216);
 }
 
 /* style the login and signup form */
 .container {
-    background-color: #d7b7b7;
+    background-color: rgb(246, 246, 235);
     margin-left: auto;
     margin-right: auto;
     color: #480404;
