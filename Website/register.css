@@ -1,0 +1,99 @@
+body {
+    background-color: #ddeaf1;
+}
+
+/* style the login and signup form */
+.container {
+    background-color: #d7b7b7;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #480404;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: large;
+
+}
+
+.submit-buttons {
+    text-align: center;
+    background-color: #B0D6EB;
+    margin-left: 48%;
+    width: 23%;
+    height: 5%;
+    border-radius: 8px;
+}
+
+.center-button{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+
+input[type=text],
+input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 15%;
+    display: inline-block;
+}
+
+label {
+    margin-left: 15%;
+    text-align: center;
+
+}
+
+/* style the navbar */
+.navbar {
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar a {
+    border-style: none;
+    opacity: 1;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    width: 22%;
+    background-color: #2b4570;
+    margin: 0;
+    font-size: 20px;
+    overflow: auto;
+    height: 6%;
+    overflow: hidden;
+
+
+    overflow: hidden;
+    flex-direction: row;
+    margin-top: -15px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.navbar a:hover {
+    background-color: rgb(152, 189, 216);
+    color: rgb(96, 4, 4);
+}
+
+.image1 {
+    width: 300px;
+}
+
+/* style the footer */
+.footer {
+
+    text-align: center;
+    padding: 20px;
+    background-color: #2b4570;
+    color: #f2f2f2;
+
+}
