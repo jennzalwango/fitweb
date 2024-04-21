@@ -30,32 +30,29 @@ body {
     border-radius: 8px;
     background-color: #bed1e1;
     color: rgb(8, 0, 0);
-
 }
 
-/* style the content on the resgister page */
+/* style the content on the resgister page margin: 15px;*/
 .register-container {
     display: flex;
 }
 
 .register-box {
     flex: 1;
-    margin: 15px;
     padding: 50px;
     border: 2px solid #d3e0ee;
     background-color: rgb(247, 224, 224);
 }
 
-/* style the login and signup form */
+/* style the login and signup form*/
 .container {
     background-color: #d7b7b7;
     margin-left: auto;
     margin-right: auto;
     color: #480404;
-    padding: 20px;
+    padding: 15px;
     border-radius: 15px;
     font-size: large;
-
 }
 
 .submit-buttons {

@@ -1,5 +1,4 @@
 /* style the list items on navbar */
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -64,6 +63,27 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+/*side gallery*/
+.Image-gallery-container{
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.gallery-container-item{
+    overflow: hidden;
+}
+
+.gallery-container-item{
+    width: 80%;
+    height: 50%;
+    display:flex;
+    transition: transform 0.3s ease;
+}
+
+.gallery-container-item img:hover {
+    transform: scale(1.1);
 }
 
 /* style the footer */
