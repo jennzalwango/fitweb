@@ -1,6 +1,61 @@
 body{
   background-color: #e7e2db;
 }
+
+
+/*body backgroung image memebrships
+.bckg-image-memberships{
+
+
+}
+
+.image-body-container{
+  background-color: #a8cad6;
+  opacity: 0.5;
+  color: pointer;
+  width: 100%;
+  height: 100%;
+
+  background-image: url('websiteImages/kaylee-garrett-GaprWyIw66o-unsplash.jpg');
+  background-repeat: no-repeat, repeat;
+  padding: 20%;
+  background-size: cover;
+  height: 100px;
+  width: 60%;
+  position: relative;
+  float: left;
+  background-position: center bottom;
+} 
+
+
+.main-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+*/
+
+
+.image-body-container{
+  position: relative;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.second-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 /* style the welcome message*/
 .membership-qoute{
   color:rgb(228, 107, 107);
@@ -10,7 +65,7 @@ body{
 
 /* style header - membership text */
 .welcome{
-  font-size:32px;
+  font-size:30px;
   color:#360101;
   text-align: center;
   text-shadow: #e1b5b5;
@@ -89,14 +144,25 @@ li.dropdown {
 /* style the home box content */
 .container {
   display: flex;
+  
 }
 
 .box1 {
   flex: 1;
   margin: 15px;
   padding: 50px;
-  border: 2px solid #d3e0ee;
-  background-color:rgb(245, 195, 195);
+  border: 2px solid #d2977a;
+  background-color:#385789;
+  opacity: 0.8;
+  cursor: pointer;
+  justify-content: space-between;
+  font-style: oblique;
+}
+
+.box1 div:hover{
+  background-color:#385789;
+  width: 100%;
+  opacity: 1;
 }
 
 /* sytle the choose button o memeberships*/
@@ -113,7 +179,7 @@ li.dropdown {
 }
 
 .choose-button:hover{
-  background-color:#a3caea;
+  background-color:#d2977a;
   border: #a3caea;;
 }
 
