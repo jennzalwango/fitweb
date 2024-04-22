@@ -9,17 +9,19 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #2b4570;
-  color: #f2f2f2;
+  background-color:#9bbecf;
   display: flex;
   justify-content: space-between;
+  height: 15%;
+
 }
 
 li {
   float: left;
   padding: 20px 26px;
-  font-size: 20px;
+  font-size: 25px;
   border-style: none;
+  color: #030000; 
 
 }
 
@@ -94,6 +96,7 @@ li.dropdown {
 /*style table items*/
 .table-schedule {
   border-collapse: collapse;
+  font-size: 20px;
 }
 
 table {
@@ -105,12 +108,11 @@ td {
   border: 1px solid #e8e8dd;
   text-align: left;
   padding: 8px;
-  /*justify-content: space-evenly;*/
 
 }
 
 th {
-  background-color: #f2eded;
+  background-color: #f5d2d2;
 }
 
 /*style the image   float: left;*/

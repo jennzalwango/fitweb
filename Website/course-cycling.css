@@ -1,156 +1,203 @@
-/* style header - cycling class text */
-.welcome {
-    font-size: 32px;
-    color: #360101;
-    text-align: center;
-    text-shadow: #e1b5b5;
-}
-
 /* style the list items on navbar */
+body{
+    background-color: rgba(229, 186, 235, 0.667);
+   margin: 0%;
+   }
+   
+   ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #9bbecf;
+     display: flex;
+     justify-content: space-between;
+     height: 15%;
+  
+   }
+   
+   li {
+     float: left;
+     padding: 20px 26px;
+     font-size: 25px;
+     border-style: none;
+     color: #030000; 
+   
+   }
+   
+   li a,
+   .dropbtn {
+     display: inline-block;
+     color: white;
+     text-align: center;
+     padding: 25px 38px;
+     text-decoration: none;
+   }
+   
+   /* style list of the dropdown */
+   li a:hover,
+   .dropdown:hover .dropbtn {
+     background-color: rgba(229, 186, 235, 0.667);
+     color: rgb(96, 4, 4);
+     height: 10%;
+   }
+   
+   li.dropdown {
+     display: inline-block;
+   
+   }
+   
+   .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+     padding: 10px 10px;
+   }
+   
+   .dropdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+   }
+   
+   .dropdown-content a:hover {
+     background-color: #e1b5b5;
+   }
+   
+   .dropdown:hover .dropdown-content {
+     display: block;
+   }
+   
+   .yoga-content {
+     color: #944545;
+     position: relative;
+   }
+   
+   /*style timetable contents*/
+   .yoga-timetable-content2 {
+     background: rgba(2, 31, 48, 0.667);
+     width: 50%;
+     padding: 30px;
+     transform: translate(-50%, -50%);
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     cursor: pointer;
+   }
+   
+   .yoga-timetable-content2:hover {
+     background:#a47a7a;
+   }
+   
+   /*style table items*/
+   .table-schedule {
+     border-collapse: collapse;
+     color: #f0ecf0;
+     font-size: large;
+   }
+   
+   table {
+     width: 100%;
+   }
+   
+   th,
+   td {
+     border: 1px solid #ec6a6a;
+     text-align: left;
+     padding: 8px;
+   
+   }
+   
+   th {
+    background-color: #ec6a6a;
+   }
+   
+   /*style the image*/
+   #yoga-img-container{
+     background-image: url('websiteImages/markus-spiske-WUehAgqO5hE-unsplash.jpg');
+     background-repeat: no-repeat;
+     padding: 20%;
+     background-size: cover;
+     height: 20%;
+     width: 60%;
+     position:relative;
+     background-position: center bottom;
+     filter: grayscale(50%);
+     cursor: pointer;
+   }
+   
+   #yoga-img-container:hover{
+    transition: opacity 0.3s ease;
+    background-color: blueviolet;
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #2b4570;
-    color: #f2f2f2;
-    display: flex;
-    justify-content: space-between;
-}
-
-li {
-    float: left;
-    padding: 20px 26px;
-    font-size: 20px;
-    border-style: none;
-
-}
-
-li a,
-.dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 25px 38px;
-    text-decoration: none;
-}
-
-/* style list of the dropdown */
-li a:hover,
-.dropdown:hover .dropbtn {
-    background-color: #a8cad6;
-    color: rgb(96, 4, 4);
-}
-
-li.dropdown {
-    display: inline-block;
-
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    padding: 10px 10px;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #e1b5b5;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* style the footer */
-.footer {
-
-    text-align: center;
-    padding: 20;
-    margin: 0;
-    background-color: #9bbecf;
-    color: #360101;
-    height: 15%;
-    font-size: medium
-}
-
-/* style the table */
-.table-schedule {
-    border-collapse: collapse;
-    width: 50%;
-}
-
-th,
-td {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-th {
-    background-color: #f2f2f2;
-
-}
-
-tr:nth-child(even) {
-    background-color: #f1e0e0;
-}
-
-/* style the image */
-* {
-    box-sizing: border-box;
-}
-
-.backgd-image{
-    /* Full height */
-    /*height: 30%;*/
-    min-height: 380px;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-body,
-html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* style the text */
-.backgound-text {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 700px;
-    padding: 20px;
-    text-align: center;
-    Opacity: 1;
-    background-color: #f1e0e0;
-    
-    /* Fallback color */
-    background-color:rgba(235, 151, 121, 0.19);
-
-    /* Black w/opacity/see-through */
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 15px;
-
-}
+   }
+   
+   .yoga-form-container{
+     padding: 16px;
+     background-color: rgba(207, 178, 213, 0.667);
+     width:50%;
+     position: relative;
+     margin: 20px;
+     cursor: pointer;
+     border-radius: 6px;
+     justify-content: space-between;
+   }
+   
+   .yoga-form-container:hover {
+     opacity: 0.5;
+     background-color:rgba(208, 70, 243, 0.667);
+   }
+   
+   /* Add styles to the form*/
+   input[type=text]{
+     width: 50%;
+     padding: 15px;
+     margin: 5px 0 22px 0;
+     border-radius: 6px;
+     border: none;
+     background: #f1f1f1;
+   }
+   
+   #weekdays{
+     font-size: large;
+     padding: 10px;
+     width: 50%;
+     background: #f1f1f1;  
+     margin: 5px 0 22px 0;
+     border: none;
+     border-radius: 6px;
+   }
+   
+   
+   /*style for the submit button */
+   .submit-btn {
+     color: black;
+     padding: 10px 10px;
+     border-radius: 6px;
+     cursor: pointer;
+     width: 13%;
+     text-align: left;
+     font-size: large;
+     border: none;
+   }
+   
+   .submit-btn:hover {
+     opacity: 0.5;
+     background-color: #b97f8a;
+   }
+   
+   /* style the footer */
+   .footer {
+     text-align: center;
+     padding: 20;
+     margin: 0;
+     background-color: #9bbecf;
+     color: #360101;
+     height: 20%;
+     font-size: large
+   }
