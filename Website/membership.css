@@ -3,31 +3,6 @@ body{
 }
 
 
-/*body backgroung image memebrships
-.bckg-image-memberships{
-
-
-}
-
-.image-body-container{
-  background-color: #a8cad6;
-  opacity: 0.5;
-  color: pointer;
-  width: 100%;
-  height: 100%;
-
-  background-image: url('websiteImages/kaylee-garrett-GaprWyIw66o-unsplash.jpg');
-  background-repeat: no-repeat, repeat;
-  padding: 20%;
-  background-size: cover;
-  height: 100px;
-  width: 60%;
-  position: relative;
-  float: left;
-  background-position: center bottom;
-} */
-
-
 .main-content{
  background-color: #e79898c6;
  border-radius: 8px;

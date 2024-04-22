@@ -1,4 +1,8 @@
 /* style the list items on navbar */
+body{
+ background-color: rgba(229, 186, 235, 0.667);
+margin: 0%;
+}
 
 ul {
   list-style-type: none;
@@ -71,18 +75,9 @@ li.dropdown {
   position: relative;
 }
 
-/*
-    
-    style timetable contents
-    position: absolute;
-    bottom: 0;
-        background: rgba(225, 219, 219, 0.667);
-    color: #f1f1f1;
-    background: rgb(222, 218, 218); /* Fallback color */
-/* background: rgba(225, 219, 219, 0.667); Black background with 0.5 opacity */
-
+/*style timetable contents*/
 .yoga-timetable-content2 {
-  background: rgba(100, 120, 140, 0.667);
+  background: rgba(192, 140, 200, 0.667);
   width: 50%;
   padding: 30px;
   transform: translate(-50%, -50%);
@@ -93,7 +88,7 @@ li.dropdown {
 }
 
 .yoga-timetable-content2:hover {
-  background: rgba(140, 170, 200, 0.667);
+  background:rgba(165, 168, 197, 0.667) ;
 }
 
 /*style table items*/
@@ -118,103 +113,70 @@ th {
   background-color: #f2eded;
 }
 
-/*style the image*/
-#yoga-img-container {
-  background-image: url('websiteImages/farsai-chaikulngamdee-L2wq7Y3h7ag-unsplash.jpg');
-  background-repeat: no-repeat, repeat;
+/*style the image   float: left;*/
+#yoga-img-container{
+  background-image: url('websiteImages/bruce-mars-HHXdPG_eTIQ-unsplash.jpg');
+  background-repeat: no-repeat;
   padding: 20%;
   background-size: cover;
-  height: 100px;
+  height: 30%;
   width: 60%;
-  position: relative;
-  float: left;
+  position:relative;
   background-position: center bottom;
 }
 
-
-/*css for image 2 , l put iform on top*/
-
-div.gallery {
-  width: 100%;
-}
-
-div.gallery:hover {
-  background-color: antiquewhite;
-}
-
-div.gallery img {
-  width: 100%;
-  height: 80%
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-/*form*/
-.yoga-form-content2 {
-  background: rgba(100, 120, 140, 0.667);
-  width: 50%;
-  padding: 30px;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  cursor: pointer;
-}
-#weekdays{
-  font-size: large;
-  padding: 6;
-  width: 100%;
-  width: 100%;
-}
-
-.submit-btn{
-
-}
-
-/* Add styles to the form container */
-.container {
-  position: absolute;
-  right: 0;
-  margin: 20px;
-  max-width: 300px;
+.yoga-form-container{
   padding: 16px;
-  background-color: rgb(220, 162, 162);
+  background-color: rgba(207, 178, 213, 0.667);
+  width:50%;
+  position: relative;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  justify-content: space-between;
 }
 
-/* Full-width input fields */
-input[type=text],
-input[type=password] {
-  width: 100%;
+.yoga-form-container:hover {
+  opacity: 0.5;
+  background-color:rgba(208, 70, 243, 0.667);
+}
+
+/* Add styles to the form*/
+input[type=text]{
+  width: 50%;
   padding: 15px;
   margin: 5px 0 22px 0;
+  border-radius: 6px;
   border: none;
   background: #f1f1f1;
 }
 
-input[type=text]:focus,
-input[type=password]:focus {
-  background-color: #f1c9c9;
-  outline: none;
+#weekdays{
+  font-size: large;
+  padding: 10px;
+  width: 50%;
+  background: #f1f1f1;  
+  margin: 5px 0 22px 0;
+  border: none;
+  border-radius: 6px;
 }
 
-/* Set a style for the submit button */
+
+/*style for the submit button */
 .submit-btn {
-  background-color: #d5afa0;
   color: black;
-  padding: 16px 20px;
-  border: none;
+  padding: 10px 10px;
+  border-radius: 6px;
   cursor: pointer;
-  width: 50%;
-  opacity: 0.9;
+  width: 13%;
   text-align: left;
+  font-size: large;
+  border: none;
 }
 
 .submit-btn:hover {
-  opacity: 1;
-  background-color: #81bcce;
+  opacity: 0.5;
+  background-color: #b97f8a;
 }
 
 /* style the footer */
@@ -225,5 +187,5 @@ input[type=password]:focus {
   background-color: #9bbecf;
   color: #360101;
   height: 20%;
-  font-size: medium
+  font-size: large
 }
