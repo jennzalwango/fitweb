@@ -1,5 +1,6 @@
 body{
   background-color: #e7dbe5;
+  margin: 0%;
 }
 
 
@@ -9,9 +10,6 @@ body{
  border: #eae3a3 solid 2px;
  
 }
-
-
-
 
  /*image style*/
 .image-body-container{
