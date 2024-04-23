@@ -1,91 +1,106 @@
 <!DOCTYPE <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <![endif]  float: left;     margin: 5px; -->
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>recepies</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="mealreceipe.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>mealrecepies</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="mealreceipe.css">
 
-    <style>
-        div.gallery {
-          width: 100%;
-        }
-        
-        div.gallery:hover {
-          background-color: antiquewhite;
-        }
-        
-        div.gallery img {
-          width: 100%;
-          height: 80%
-        }
-        
-        div.desc {
-          padding: 15px;
-          text-align: center;
-        }
-    </style>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+
+    }
+  </style>
 </head>
 
 <body>
-    <!--Nav bar-->
-    <Nav class="navbar">
-        <ul>
-            <li style="font-family:'Courier New'"><a href="home.html" style="font-size:x-large;">Fit&Fun</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Courses</a>
-                <div class="dropdown-content">
-                    <a href="courses-dancing.html" style="font-size:x-large;">Dancing classes</a>
-                    <a href="course-yoga.html" style="font-size:x-large;">Yoga classes</a>
-                    <a href="course-cycling.html" style="font-size:x-large;">Cycling classes</a>
-                </div>
-            </li>
-            <li><a href="memberships.html" style="font-size:x-large;">Membership</a></li>
-            <li><a href="mealrecepies.html" style="font-size:x-large;">Mealsreceipe</a></li>
-        </ul>
-    </Nav>
-    <!--image gallery-->
-    <div class="gallery">
-        <!--<a target="_blank" href="websiteImages/andreea-boncota-icxORkp1Yv0-unsplash.jpg">
-          <img src="websiteImages/andreea-boncota-icxORkp1Yv0-unsplash.jpg" alt="Cinque Terre" width="800" height="400">
-        </a>
-        <div class="desc">Add a description of the image 1 here</div>
-      </div>
-      
-      <div class="gallery">
-        <a target="_blank" href="websiteImages/big-dodzy-_ASiToF-faI-unsplash.jpg">
-          <img src="websiteImages/big-dodzy-_ASiToF-faI-unsplash.jpg" alt="Forest" width="800" height="400">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>
-      
-      <div class="gallery">
-        <a target="_blank" href="websiteImages/blake-cheek-zwSMv0jY-1o-unsplash.jpg">
-          <img src="websiteImages/blake-cheek-zwSMv0jY-1o-unsplash.jpg" alt="Northern Lights" width="800" height="400">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>-->
-      
-      <div class="gallery">
-        <a target="_blank" href="websiteImages/farsai-chaikulngamdee-L2wq7Y3h7ag-unsplash.jpg">
-          <img src="websiteImages/farsai-chaikulngamdee-L2wq7Y3h7ag-unsplash.jpg" alt="yogasunset" width="800" height="400">
-        </a>
-        <div class="desc">Yoga</div>
+  <!--Nav bar-->
+  <Nav class="navbar">
+    <ul>
+      <li style="font-family:'Courier New'"><a href="home.html" style="font-size:x-large;">Fit&Fun</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Courses</a>
+        <div class="dropdown-content">
+          <a href="courses-dancing.html" style="font-size:x-large;">Dancing classes</a>
+          <a href="course-yoga.html" style="font-size:x-large;">Yoga classes</a>
+          <a href="course-cycling.html" style="font-size:x-large;">Cycling classes</a>
+        </div>
+      </li>
+      <li><a href="memberships.html" style="font-size:x-large;">Membership</a></li>
+      <li><a href="mealrecepies.html" style="font-size:x-large;">Mealsreceipe</a></li>
+    </ul>
+  </Nav>
+
+  <!--image gallery-->
+  <h1 class="welcome" style="text-align: center; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #d83cdb;">Welcome to our Meal
+    recepies</h1>
+
+  <h4 class="welcome" style="text-align: center; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #59035b;">
+    Click on any Recepie Image to get the recepie details.</h4>
+
+  <div class="row">
+    <div  id="id01" class="column">
+      <img src="websiteImages/goodeats-yqr-AKCB74kr4UI-unsplash.jpg" alt="leavfy vegetables and water"
+        style="width:100%;cursor: pointer;"onclick="window.location.href='getreceipe.html'">
+    </div>
+    
+    <div class="column">
+      <img src="websiteImages/anna-pelzer-IGfIGP5ONV0-unsplash.jpg" alt="leavfy vegetables and water"
+        style="width:100%; cursor: pointer;"onclick="window.location.href='getreceipe.html'">
     </div>
 
+    <div class="column">
+      <img src="websiteImages/tania-melnyczuk-xeTv9N2FjXA-unsplash.jpg" alt="leavfy vegetables and water"
+        style="width:100%;cursor: pointer;"onclick="window.location.href='getreceipe.html'">
+    </div>
+
+    <div class="column">
+      <img src="websiteImages/jonathan-farber-OCNqOLeCwOc-unsplash.jpg" alt="leavfy vegetables and water"
+        style="width:100%;cursor: pointer;"onclick="window.location.href='getreceipe.html'">
+    </div>
+
+    <div class="column">
+      <img src="websiteImages/sam-moghadam-khamseh-P1AG2Y0mC-o-unsplash.jpg" alt="leavfy vegetables and water"
+        style="width:100%;cursor: pointer;"onclick="window.location.href='getreceipe.html'">
+    </div>
+
+    <div class="column">
+      <img src="websiteImages/mae-mu-_emRPLTRfwk-unsplash.jpg" alt="leavfy vegetables and water"
+        style="width:100%;cursor: pointer;"onclick="window.location.href='getreceipe.html'">
+    </div>
+
+  </div>
 
 
+  <footer class="footer">
+    <p style="color:#360101">
+      &copy; 2024 Fit&Fun Company <br><br>
+      All rights reserved. </p>
+    <!--Add the contact us-->
+    Feel free to contact us : fit&fun@gmail.com | <br><br>
+    Call us on: +49 1233 4567 8902
+  </footer>
 
-
-
-    <script src="" async defer></script>
+  <script src="" async defer></script>
 </body>
 
 </html>

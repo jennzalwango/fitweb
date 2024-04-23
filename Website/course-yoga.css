@@ -12,7 +12,7 @@ ul {
   background-color:#9bbecf;
   display: flex;
   justify-content: space-between;
-  height: 15%;
+  height: 10%;
 
 }
 
@@ -115,7 +115,7 @@ th {
   background-color: #f5d2d2;
 }
 
-/*style the image   float: left;*/
+/*style the image*/
 #yoga-img-container{
   background-image: url('websiteImages/bruce-mars-HHXdPG_eTIQ-unsplash.jpg');
   background-repeat: no-repeat;

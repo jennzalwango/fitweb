@@ -1,23 +1,29 @@
 /* style the list items on navbar */
+body{
+    background-color: #f2d7f4;
+    margin: 0%;
+}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2b4570;
-    color: #f2f2f2;
+    background-color: #9bbecf;
     display: flex;
     justify-content: space-between;
-}
-
-li {
+    height: 10%;
+ 
+  }
+  
+  li {
     float: left;
     padding: 20px 26px;
-    font-size: 20px;
+    font-size: 25px;
     border-style: none;
-   
-}
+    color: #030000; 
+  
+  }
 
 li a,
 .dropbtn {
@@ -74,6 +80,6 @@ li.dropdown {
     margin: 0;
     background-color: #9bbecf;
     color: #360101;
-    height: 20%;
-    font-size: x-large
+    height: 24%;
+    font-size: x-large;
 }
