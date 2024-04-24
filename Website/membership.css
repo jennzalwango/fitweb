@@ -8,8 +8,23 @@ body{
  background-color: #e79898c6;
  border-radius: 8px;
  border: #eae3a3 solid 2px;
- 
 }
+
+.become-member-button{
+    font-size:23px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    color: rgb(8, 0, 0);
+    cursor: pointer;
+    border: 2px solid #3366cc;
+}
+  
+.become-member-button:hover{
+    background-color:#a3caea;
+    border: #a3caea;
+}
+
 
  /*image style*/
 .image-body-container{
@@ -56,7 +71,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #2b4570;
+  background-color:  #9bbecf;
   color: #f2f2f2;
   display: flex;
   justify-content: space-between;
