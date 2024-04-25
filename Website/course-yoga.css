@@ -9,19 +9,20 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#9bbecf;
+  background-color:#2D4E5D;
   display: flex;
   justify-content: space-between;
   height: 10%;
+  color: #0000FF;
 
 }
 
 li {
   float: left;
   padding: 20px 26px;
-  font-size: 25px;
+  font-size: large;
   border-style: none;
-  color: #030000; 
+  color: #2D4E5D;
 
 }
 
@@ -37,7 +38,7 @@ li a,
 /* style list of the dropdown */
 li a:hover,
 .dropdown:hover .dropbtn {
-  background-color: #a8cad6;
+  background-color: #3A6978;
   color: rgb(96, 4, 4);
 }
 
@@ -153,7 +154,7 @@ input[type=text]{
   background: #f1f1f1;
 }
 
-#weekdays{
+#daysOfWeek{
   font-size: large;
   padding: 10px;
   width: 50%;
@@ -161,6 +162,17 @@ input[type=text]{
   margin: 5px 0 22px 0;
   border: none;
   border-radius: 6px;
+}
+
+#sessionTime{
+  font-size: large;
+  padding: 10px;
+  width: 50%;
+  background: #f1f1f1;  
+  margin: 5px 0 22px 0;
+  border: none;
+  border-radius: 6px;
+
 }
 
 
