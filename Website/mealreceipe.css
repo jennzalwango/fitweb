@@ -9,10 +9,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #9bbecf;
+    background-color:#2D4E5D;
     display: flex;
     justify-content: space-between;
     height: 10%;
+    font-size: large;
  
   }
   
@@ -74,12 +75,11 @@ li.dropdown {
 
 /* style the footer */
 .footer {
-
     text-align: center;
     padding: 20;
     margin: 0;
-    background-color: #9bbecf;
-    color: #360101;
-    height: 24%;
-    font-size: x-large;
-}
+    background-color: #2D4E5D;
+    color: #fbfafa;
+    height: 20%;
+    font-size: large
+  }

@@ -1,4 +1,7 @@
 /* style the table */
+body{
+  background-color: #e3f6ed;
+}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -14,3 +17,15 @@ td, th {
 tr:nth-child(even) {
   background-color: aliceblue;
 }
+img{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ h3{
+  text-align: center;
+  color: #230404;
+ }

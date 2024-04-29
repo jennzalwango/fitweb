@@ -7,7 +7,9 @@ body {
 .welcome{
   font-size:52px;
   color: whitesmoke;
-  background-color: #523832;;
+  background-color: #513731;
+  border-radius: 12px;
+  padding:10px;
 }
 
 .home-image {
@@ -28,7 +30,7 @@ body {
 
 /* sytle the join us button   */
 .home-button{
-  font-size:23px;
+  font-size:30px;
   padding: 15px 25px;
   border-radius: 8px;
   transition-duration: 0.4s;
@@ -100,13 +102,11 @@ body {
 
 /* style the footer */
 .footer {
-
   text-align: center;
   padding: 20;
   margin: 0;
-  background-color: #9bbecf;
-  color: #360101;
+  background-color: #2D4E5D;
+  color: #fbfafa;
   height: 20%;
-  font-size: x-large
-
+  font-size: large
 }
