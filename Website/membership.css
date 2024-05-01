@@ -62,7 +62,6 @@ body{
   font-size:30px;
   color:#360101;
   text-align: center;
-  text-shadow: #e1b5b5;
 }
 
 /* style the list items on navbar */
@@ -179,7 +178,7 @@ li.dropdown {
 /* style the footer */
 .footer {
   text-align: center;
-  padding: 20;
+  padding: 0;
   margin: 0;
   background-color: #2D4E5D;
   color: #fbfafa;
