@@ -1,8 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 /* style the list items on navbar */
-body{
-  background-color: rgba(229, 186, 235, 0.667);
- margin: 0%;
- }
+
  
 
   ul {
@@ -209,3 +210,28 @@ body{
    height: 20%;
    font-size: large
  }
+
+
+/* add responsiveness */
+  .navheader{
+
+    padding: 15px;
+  
+   }
+   .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body{
+      background-color: rgba(229, 186, 235, 0.667);
+      margin: 0%;
+     }
+  }

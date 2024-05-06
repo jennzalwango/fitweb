@@ -3,7 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Dancing course</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,33 +18,39 @@
 
 <body>
 
-    <!--Nav bar-->
-    <Nav class="navbar">
-        <ul>
-            <li style="font-family:'Courier New'"><a href="home.html">Fit&Fun</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropbtn">Courses</a>
-                <div class="dropdown-content">
-                    <a href="courses-dancing.html">Dancing classes</a>
-                    <a href="course-yoga.html">Yoga classes</a>
-                    <a href="course-cycling.html">Cycling classes</a>
-                </div>
-            </li>
-            <li><a href="memberships.html">Membership</a></li>
-            <li><a href="mealrecepies.html">Mealsreceipe</a></li>
-        </ul>
-    </Nav>
+    <div class="navheader">
+        <!--Nav bar-->
+        <Nav class="navbar">
+            <ul>
+                <li style="font-family:'Courier New'"><a href="home.html">Fit&Fun</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Courses</a>
+                    <div class="dropdown-content">
+                        <a href="courses-dancing.html">Dancing classes</a>
+                        <a href="course-yoga.html">Yoga classes</a>
+                        <a href="course-cycling.html">Cycling classes</a>
+                    </div>
+                </li>
+                <li><a href="memberships.html">Membership</a></li>
+                <li><a href="mealrecepies.html">Mealsreceipe</a></li>
+            </ul>
+        </Nav>
 
-    <h1 class="welcome"
-        style="text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #d83cdb;">
-        Welcome to our Dancing classes</h1>
+        <h1 class="welcome"
+            style="text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #d83cdb;">
+            Welcome to our Dancing classes
+        </h1>
+
+    </div>
+
+
 
     <!--image div for the table-->
-    <div>
+    <div class="row">
 
-        <div id="yoga-img-container">
+        <div id="yoga-img-container" class="col-3">
 
-            <div>
+            <div class="col-4">
                 <!--yoga timeTable-->
                 <div class="yoga-timetable-content2">
                     <table class="table-schedule">
@@ -90,13 +99,13 @@
     </div>
 
     <!--div for the yoga form-->
-    <div>
+    <div class="col-5">
 
-        <div id="yoga-bckgrd-container">
+        <div id="yoga-bckgrd-container" class="col-6">
 
-            <div>
+            <div class="col-7">
                 <!--yoga timeTable sessionTime-->
-                <div class="yoga-bckgrd-container">
+                <div class="yoga-bckgrd-container" class="col-8">
 
                     <form action="/action_page.php" class="yoga-form-container">
                         <h2 style="text-align: center;">BOOK A SLOT </h2>
@@ -107,6 +116,7 @@
                         <label for="email"><b>Email:</b></label><br /><br />
                         <input id="email" type="text" placeholder="Enter email" name="email" required><br>
 
+                        <div class="col-9">
                         <label for="dayOfWeek" style="font-size: large;"><b>Choose a day:</b></label><br /><br />
                         <select id="dayOfWeek" name="dayOfWeek">
                             <option value="Monday">Monday</option>
@@ -117,8 +127,9 @@
                             <option value="Saturday">Saturday</option>
                             <option value="Sunday">Sunday</option>
                         </select><br /><br />
-
-                        <label for="sessionTime" style="font-size: large;"><b>Choose a session:</b></label><br/>
+                        </div>
+                        <div class="col-10">
+                        <label for="sessionTime" style="font-size: large;"><b>Choose a session:</b></label><br />
                         <select id="sessionTime" name="sessionTime">
                             <option value="Morning session">Morning session</option>
                             <option value="Afternoon session">Afternoon session</option>
@@ -133,21 +144,22 @@
 
         </div>
     </div>
-    <div>
+    <div class="col-11">
         <br>
         <br>
     </div>
 
-
+    <div class="col-12">
     <footer class="footer">
         <p style="color:#f6f2f2;">
             &copy; 2024 Fit&Fun Company <br><br>
-            All rights reserved. 
+            All rights reserved.
         </p>
         <!--Add the contact us-->
         Feel free to contact us : fit&fun@gmail.com | <br><br>
         Call us on: +49 1233 4567 8902
     </footer>
+    </div>
     <script></script>
 </body>
 
